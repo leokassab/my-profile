@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 body{
-  background-color: antiquewhite;
+  background-image: url(images/5053309.jpg);
 }
 
 h1, h2{
-color: lightblue;
-font-family: Georgia, 'Times New Roman', Times, serif;
+color: goldenrod;
+font-family: 'MedievalSharp', cursive;
 }
 
 h1{
@@ -17,8 +19,12 @@ h2{
   line-height: normal;
 }
 
+p{
+  font-family: 'MedievalSharp', cursive;
+}
+
 a{
-  color: blue;
+  color:black;
   text-decoration: none;
 }
 
@@ -48,8 +54,8 @@ a:hover{
 
 .btn-blue{
   border-radius: 5px;
-  background-color: blue;
-  color: white;
+  background-color: black;
+  color: goldenrod;
   padding: 16px 20px;
   margin: 20px auto;
 }
